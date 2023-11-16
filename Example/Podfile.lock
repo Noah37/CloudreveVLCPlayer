@@ -1,0 +1,35 @@
+PODS:
+  - CloudreveVLCPlayer (0.1.0):
+    - Masonry
+    - MobileVLCKit (= 3.6.0b5)
+    - VLCMediaLibraryKit (= 0.11.0b2)
+  - Masonry (1.1.0)
+  - MobileVLCKit (3.6.0b5)
+  - VLCMediaLibraryKit (0.11.0b2):
+    - MobileVLCKit
+
+DEPENDENCIES:
+  - CloudreveVLCPlayer (from `../`)
+  - Masonry
+  - MobileVLCKit (= 3.6.0b5)
+  - VLCMediaLibraryKit (= 0.11.0b2)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MobileVLCKit
+    - VLCMediaLibraryKit
+
+EXTERNAL SOURCES:
+  CloudreveVLCPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CloudreveVLCPlayer: ce6f3b731402b97b3b0ca189c2e65dd1b6a4910a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MobileVLCKit: 2c13a89ebe60440eefceec20c4639b2ad1862ee6
+  VLCMediaLibraryKit: d7a3f1bbcccabddfc5faa010058f92bc96c34ad3
+
+PODFILE CHECKSUM: 09a69f336cf5421180c3947607557630c9187fd6
+
+COCOAPODS: 1.12.1
